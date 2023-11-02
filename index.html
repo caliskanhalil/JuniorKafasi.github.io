@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <!-- Google Tag Manager -->
+     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -10,29 +10,67 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
     <title>My GitHub Website</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title>My Agenda - Homepage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+   
+
+
+
+   
 <body>
-    <div class="container">
-        <h1>Welcome to My GitHub Page</h1>
-        <p>This is a basic website hosted on GitHub.</p>
-        <button onclick="changeText()" class="btn"><a href="https://www.instagram.com/">Click me!</a></button>
-    </div>
-
-    <div class="form-container">
-  <h2>E-posta Aboneliği</h2>
-  <p>E-posta adresinizi girin:</p>
-  <form id="emailForm">
-    <input type="email" id="email" placeholder="E-posta adresi" required>
-    <input type="submit" value="Abone Ol">
-  </form>
-  <p id="confirmationMessage"></p>
-</div>
-    
-
-    <script src="script.js"></script>
+     <script src="script.js"></script>
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M8378ZM6"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="slider">
+            <!-- Slider content goes here -->
+        </div>
+
+        <section id="form">
+            <h2>Subscribe to our Newsletter</h2>
+            <form>
+                <input type="email" placeholder="Your email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <section id="gallery">
+            <img src="images/about-img.jpg" alt="">
+        </section>
+
+        <section id="comments">
+            <h2>User Comments</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, nemo!</p>
+        </section>
+
+        <section id="advantages">
+            <h2>Business Advantages</h2>
+            <!-- Business advantage content goes here -->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, nemo!</p>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Agenda Business</p>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
